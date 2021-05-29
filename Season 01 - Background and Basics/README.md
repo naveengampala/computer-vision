@@ -25,7 +25,7 @@ Second, using a `higher size kernel increases the computation cost` with more nu
 
 ### How many times do we need to perform 3x3 convolution operation to reach 1x1 from 199x199 (show calculations)</br>
 
-<img src="../scenarios/media/cnn.jpg" align="right" alt="" width="225"/> </br>
+<img src="../scenarios/media/cnn.gif" align="right" alt="" width="225"/> </br>
 Each time, when a 3x3 convolution is performed, we end up with 2 pixels lesser output channel. When we perform 3x3 on 5x5 image, we get a 3x3 image.
 
 Without Max-pooling, **99 times** 3x3 convolution needs to be performed on 199x199 to reach 1x1 image!
