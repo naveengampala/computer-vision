@@ -15,6 +15,13 @@ These explanations are directly extrapolable to 1D signals or 3D signals, but th
 **`Kernels`** are nothing but a filter that is used to extract the features from the images. The kernel is a matrix that moves over the input data, performs the dot product with the sub-region of input data, and gets the output as the matrix of dot products. Kernel moves on the input data by the stride value. If the stride value is 2, then kernel moves by 2 columns of pixels in the input matrix. In short, the kernel is used to extract high-level features like edges from the image.
 
 ### Why should we (nearly) always use 3x3 kernels?</br>
+This question can be answered in two parts. `One part` is to answer `why noy even kernels` **_(2x2, 4x4)_** and the `second part` is why not using `bigger kernels`**_(5x5, 7x7, 9x9..)_** .
+
+First, with even kernels the problem is its difficult to find axis of symmetry. Without centre point, it is difficult to depict information in a symmetric way.
+
+Second, using a `higher size kernel increases the computation cost` with more number of parameters and also the amount of information or features extracted are considerably lesser (as the dimension of next layer reduces greatly). Using a `lower size kernel like 1x1 does not account of features from the neighbouring pixels`, 1x1 is used only in cases of reducing the dimensions.
+
+3x3 is the smallest unit which can be used to compute any kernel size output and seems to be a best fit. If we need 5x5 kernel output, we can convolve with _3x3 twice (3x3 + 3x3 = 18 parameter)_ and if we need 7x7 output, we can convolve using _3x3 thrice (33 + 33 + 3*3 = 27 parameters)_ and so on. And GPUs have accelerated 3x3 operation, so it is much faster to perform the convolution using 3x3 kernel.
 
 ### How many times do we need to perform 3x3 convolution operation to reach 1x1 from 199x199 (show calculations)</br>
 
