@@ -21,21 +21,3 @@ These explanations are directly extrapolable to 1D signals or 3D signals, but th
 ### How are kernels initialized?</br>
 
 ### What happens during the training of a DNN?</br>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
