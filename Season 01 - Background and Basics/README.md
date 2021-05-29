@@ -14,7 +14,7 @@ These explanations are directly extrapolable to 1D signals or 3D signals, but th
 <img src="../scenarios/media/kernels.jpg" align="right" alt="" width="225"/> </br>
 **`Kernels`** are nothing but a filter that is used to extract the features from the images. The kernel is a matrix that moves over the input data, performs the dot product with the sub-region of input data, and gets the output as the matrix of dot products. Kernel moves on the input data by the stride value. If the stride value is 2, then kernel moves by 2 columns of pixels in the input matrix. In short, the kernel is used to extract high-level features like edges from the image.
 
-### Why should we (nearly) _always use 3x3 kernels_?</br>
+### Why should we (nearly) `always use 3x3 kernels`?</br>
 This question can be answered in two parts. `One part` is to answer `why noy even kernels` _(2x2, 4x4)_ and the `second part` is why not using `bigger kernels`_(5x5, 7x7, 9x9..)_ .
 
 First, with even kernels the problem is its difficult to find axis of symmetry. Without centre point, it is difficult to depict information in a symmetric way.
