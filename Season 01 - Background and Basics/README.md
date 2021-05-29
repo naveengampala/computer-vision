@@ -3,7 +3,7 @@
 ### What are Channels and Kernels</br>
 Channels come from "media". Looking at broadcast technology behind TVs you have mulitple channels for different information that gets broadcasted to your TV. Let's assume that we are talking about 2D convolutions applied on images.</br>
 
-	In a grayscale image, the data is a matrix of dimensions __w x h__, 
+	In a grayscale image, the data is a matrix of dimensions w x h, 
 	
 
 ### Why should we (nearly) always use 3x3 kernels?</br>
