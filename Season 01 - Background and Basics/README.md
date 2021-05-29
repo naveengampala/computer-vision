@@ -7,7 +7,7 @@ In a grayscale image, the data is a matrix of dimensions **_w×h_**, where **_w_
     
 A convolution layer receives the image **_(w×h×c)_** as input, and generates as output an activation map of dimensions **_w′×h′×c′_**. The number of input channels in the convolution is c, while the number of output channels is **_c′_** . The filter for such a convolution is a tensor of dimensions **_f×f×c×c′_** , where **_f_** is the filter size (normally 3 or 5).
 
-This way, the number of channels is the **depth of the matrices involved in the convolutions**. Also, a convolution operation defines the variation in such depth by specifying input and output channels.
+This way, the number of channels is the `depth of the matrices involved in the convolutions`. Also, a convolution operation defines the variation in such depth by specifying input and output channels.
 
 These explanations are directly extrapolable to 1D signals or 3D signals, but the analogy with image channels made it more appropriate to use 2D signals in the example.
 	
