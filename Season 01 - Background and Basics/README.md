@@ -10,8 +10,8 @@ A convolution layer receives the image **_w×h×c_** as input, and generates as 
 This way, the number of channels is the `depth of the matrices involved in the convolutions`. Also, a convolution operation defines the variation in such depth by specifying input and output channels.
 
 These explanations are directly extrapolable to 1D signals or 3D signals, but the analogy with image channels made it more appropriate to use 2D signals in the example.
-
 <img src="../scenarios/media/kernels.jpg" align="right" alt="" width="300"/> </br>
+
 **`Kernels`** are nothing but a filter that is used to extract the features from the images. The kernel is a matrix that moves over the input data, performs the dot product with the sub-region of input data, and gets the output as the matrix of dot products. Kernel moves on the input data by the stride value. If the stride value is 2, then kernel moves by 2 columns of pixels in the input matrix. In short, the kernel is used to extract high-level features like edges from the image.
 
 ### Why should we (nearly) `always use 3x3 kernels`?</br>
