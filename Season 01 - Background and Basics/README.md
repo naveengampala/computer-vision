@@ -1,6 +1,6 @@
 # Background and Basics</br>
 
-## What are Channels and Kernels</br>
+## What are Channels and Kernels
 
 ## Why should we (nearly) always use 3x3 kernels?</br>
 
