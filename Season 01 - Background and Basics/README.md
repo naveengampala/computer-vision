@@ -1,7 +1,7 @@
 # Background and Basics</br>
 
 ### What are Channels and Kernels</br>
-Channels come from "media". Looking at broadcast technology behind TVs you have mulitple channels for different information that gets broadcasted to your TV. Let's assume that we are talking about 2D convolutions applied on images.</br>
+Channels come from "media". Looking at broadcast technology behind TVs you have mulitple channels for different information that gets broadcasted to your TV. Let's assume that we are talking about 2D convolutions applied on images.</br>/n
 	In a grayscale image, the data is a matrix of dimensions __w x h__, 
 	
 
