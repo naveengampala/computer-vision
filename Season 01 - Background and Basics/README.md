@@ -1,6 +1,6 @@
 # Background and Basics</br>
 
-### What are Channels and Kernels?</br>
+### What are `Channels` and Kernels?</br>
 **Channels** come from `media`. Looking at broadcast technology behind TVs you have mulitple channels for different information that gets broadcasted to your TV. Let's assume that we are talking about 2D convolutions applied on images.</br>
 
 In a grayscale image, the data is a matrix of dimensions **_w×h_**, where **_w_** is the `width` of the image and **_h_** is its `height`. In a color image, we normally have 3 channels: `red, green and blue` ; this way, a color image can be represented as matrix of dimensions **_w×h×c_**, where **_c_** is the number of channels, that is, 3.
