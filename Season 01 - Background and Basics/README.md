@@ -70,3 +70,34 @@ Without Max-pooling, **99 times** 3x3 convolution needs to be performed on 199x1
 ### How are kernels initialized?</br>
 
 ### What happens during the training of a DNN?</br>
+
+<div class="visualization-column-2">
+<h3>2. Choose initialization method</h3>
+<p>Select an initialization method for the values of your neural network parameters<sup class="footnote"></sup>.</p>
+<label class="radio-container">Zero
+<input type="radio" value="0" name="playground_init" />
+<span class="checkmark"></span>
+</label>
+<label class="radio-container">Too small
+<input type="radio" value="0.01" name="playground_init" />
+<span class="checkmark"></span>
+</label>
+<label class="radio-container">Appropriate
+<input type="radio" value="1" name="playground_init" checked="" />
+<span class="checkmark"></span>
+</label>
+<label class="radio-container">Too large
+<input type="radio" value="100" name="playground_init" />
+<span class="checkmark"></span>
+</label>
+<div id="playground_network"></div>
+<p>Select whether to visualize the weights or gradients of the network above.</p>
+<label class="radio-container">Weight
+<input type="radio" value="weight" name="playground_link" checked="" />
+<span class="checkmark"></span>
+</label>
+<label class="radio-container">Gradient
+ <input type="radio" value="gradient" name="playground_link" />
+<span class="checkmark"></span>
+</label>
+</div>
