@@ -12,7 +12,7 @@
 
 ## Data Analysis
 
-Generally, when you have to deal with image, text, audio or video data, you can use standard python packages that load data into a numpy array. Then you can convert this array into a torch.*Tensor.
+Generally, when you have to deal with image, text, audio or video data, you can use standard python packages that load data into a numpy array. Then you can convert this array into a `torch.*Tensor.
 
     For images, packages such as Pillow, OpenCV are useful
     For audio, packages such as scipy and librosa
