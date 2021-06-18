@@ -58,7 +58,7 @@ For this tutorial, we will use the **CIFAR10** dataset. It has the classes: **â€
              ReLU-28             [-1, 64, 2, 2]               0
       BatchNorm2d-29             [-1, 64, 2, 2]             128
           Dropout-30             [-1, 64, 2, 2]               0
-AdaptiveAvgPool2d-31             [-1, 64, 1, 1]               0
+	AdaptiveAvgPool2d-31             [-1, 64, 1, 1]               0
            Linear-32                   [-1, 10]             650
-================================================================
+	================================================================
 
