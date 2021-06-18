@@ -5,8 +5,7 @@
 - **Attention and Image Augmentation: Depthwise**
 - **Pixel Shuffle** 
 - **Dilated, Transpose**
-- **Channel Attention** 
-- **Albumentations Library**
+- **Channel Attention**
 
 **Objective** : To achieve 87% accuracy with total Params less than 100k in CIFAR10 dataset
 
