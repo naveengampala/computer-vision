@@ -724,11 +724,7 @@ Test set: Average loss: -6.4636, Accuracy: 8219/10000 (82.19%)
     Accuracy of truck : 87 %
     
 ## Vaidation Plot
-
-<img src="/scenarios/validation.png" align="right" alt="" width="225"/> </br>
-	
-    
-
+![image](https://github.com/naveengampala/computer-vision/blob/main/Season%2007%20-%20Advanced%20Concepts/plots/validation.png)
 
 	
 
