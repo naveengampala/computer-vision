@@ -725,6 +725,9 @@ Test set: Average loss: -6.4636, Accuracy: 8219/10000 (82.19%)
     
 ## Vaidation Plot
 
+<img src="/scenarios/validation.png" align="right" alt="" width="225"/> </br>
+	
+    
 
 
 	
