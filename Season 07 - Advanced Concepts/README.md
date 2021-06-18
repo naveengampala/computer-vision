@@ -711,6 +711,18 @@ Train set: Average loss: 0.0043, Accuracy: 40325/50000 (80.65%)
 
 Test set: Average loss: -6.4636, Accuracy: 8219/10000 (82.19%)
 
+## Accuracy by class
+	Accuracy of plane : 93 %
+	Accuracy of   car : 89 %
+	Accuracy of  bird : 75 %
+	Accuracy of   cat : 52 %
+    Accuracy of  deer : 92 %
+    Accuracy of   dog : 69 %
+    Accuracy of  frog : 91 %
+    Accuracy of horse : 84 %
+    Accuracy of  ship : 93 %
+    Accuracy of truck : 87 %
+
 
 	
 
