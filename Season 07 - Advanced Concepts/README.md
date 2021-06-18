@@ -722,6 +722,9 @@ Test set: Average loss: -6.4636, Accuracy: 8219/10000 (82.19%)
     Accuracy of horse : 84 %
     Accuracy of  ship : 93 %
     Accuracy of truck : 87 %
+    
+## Vaidation Plot
+
 
 
 	
