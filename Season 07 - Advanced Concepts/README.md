@@ -61,4 +61,6 @@ For this tutorial, we will use the **CIFAR10** dataset. It has the classes: **â€
 	AdaptiveAvgPool2d-31             [-1, 64, 1, 1]               0
            Linear-32                   [-1, 10]             650
 	================================================================
+    
+## Logs
 
